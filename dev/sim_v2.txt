@@ -1,0 +1,12 @@
+full                         1x   macro=0.707 sd=0.051 n=10 calls=1.00 {'unique': 0.585, 'ambiguous': 0.735, 'inconsistent': 0.8}
+full                         3x   macro=0.796 sd=0.052 n=4 calls=2.33 {'unique': 0.625, 'ambiguous': 0.912, 'inconsistent': 0.85}
+full                         10x  macro=0.808 sd=0.025 n=2 calls=2.91 {'unique': 0.675, 'ambiguous': 0.95, 'inconsistent': 0.8}
+no_vote                      1x   macro=0.707 sd=0.051 n=10 calls=1.00 {'unique': 0.585, 'ambiguous': 0.735, 'inconsistent': 0.8}
+no_vote                      3x   macro=0.796 sd=0.043 n=4 calls=2.35 {'unique': 0.637, 'ambiguous': 0.85, 'inconsistent': 0.9}
+no_vote                      10x  macro=0.833 sd=0.000 n=2 calls=3.13 {'unique': 0.675, 'ambiguous': 0.95, 'inconsistent': 0.875}
+no_prior_pick                1x   macro=0.708 sd=0.057 n=10 calls=1.00 {'unique': 0.585, 'ambiguous': 0.71, 'inconsistent': 0.83}
+no_prior_pick                3x   macro=0.767 sd=0.066 n=4 calls=2.37 {'unique': 0.613, 'ambiguous': 0.787, 'inconsistent': 0.9}
+no_prior_pick                10x  macro=0.783 sd=0.000 n=2 calls=3.47 {'unique': 0.675, 'ambiguous': 0.8, 'inconsistent': 0.875}
+no_adaptive                  1x   macro=0.707 sd=0.051 n=10 calls=1.00 {'unique': 0.585, 'ambiguous': 0.735, 'inconsistent': 0.8}
+no_adaptive                  3x   macro=0.800 sd=0.049 n=4 calls=3.00 {'unique': 0.625, 'ambiguous': 0.912, 'inconsistent': 0.863}
+no_adaptive                  10x  macro=0.867 sd=0.000 n=2 calls=10.00 {'unique': 0.7, 'ambiguous': 1.0, 'inconsistent': 0.9}

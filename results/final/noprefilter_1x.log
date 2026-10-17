@@ -1,0 +1,1 @@
+{"budget": "1x", "ablate": ["adaptive", "prefilter"], "items": 60, "calls_total": 60, "calls_min": 1, "calls_max": 1, "usage": {"prompt_tokens": 92335, "completion_tokens": 60150, "cost_micro_usd": 17117}, "seconds": 89.7}

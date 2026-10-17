@@ -1,0 +1,55 @@
+{
+  "n_items": 60,
+  "macro_exact_match": 0.8333,
+  "per_case_rate": {
+    "unique": 0.8,
+    "ambiguous": 0.85,
+    "inconsistent": 0.85
+  },
+  "exact_match": 0.8333,
+  "per_case": {
+    "unique": {
+      "n": 20,
+      "correct": 16
+    },
+    "ambiguous": {
+      "n": 20,
+      "correct": 17
+    },
+    "inconsistent": {
+      "n": 20,
+      "correct": 17
+    }
+  },
+  "confusion": {
+    "unique": {
+      "unique": 17,
+      "ambiguous": 3,
+      "inconsistent": 0,
+      "unparsed": 0
+    },
+    "ambiguous": {
+      "unique": 0,
+      "ambiguous": 19,
+      "inconsistent": 1,
+      "unparsed": 0
+    },
+    "inconsistent": {
+      "unique": 0,
+      "ambiguous": 3,
+      "inconsistent": 17,
+      "unparsed": 0
+    }
+  },
+  "cell_accuracy": 0.9437,
+  "ambiguous_partial": 0.85,
+  "inconsistent_label_only": 0.0,
+  "conflict_containment": null,
+  "conflict_coverage": 0.85,
+  "cited_mean": 2.9,
+  "core_mean": 3.5,
+  "cited_chars_mean": 163.6,
+  "core_chars_mean": 202.8,
+  "containment_rankable": false,
+  "missing_or_unparsed": 0
+}

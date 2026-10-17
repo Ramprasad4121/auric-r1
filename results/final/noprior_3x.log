@@ -1,0 +1,1 @@
+{"budget": "3x", "ablate": ["adaptive", "prior_pick"], "items": 60, "calls_total": 180, "calls_min": 3, "calls_max": 3, "usage": {"prompt_tokens": 271863, "completion_tokens": 170971, "cost_micro_usd": 46622}, "seconds": 255.9}

@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+dev/pool_*.json
+dev/*.bak
+/tmp/

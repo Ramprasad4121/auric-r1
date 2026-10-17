@@ -2,5 +2,6 @@
 __pycache__/
 *.pyc
 dev/pool_*.json
+!dev/pool_v2.json
 dev/*.bak
 /tmp/

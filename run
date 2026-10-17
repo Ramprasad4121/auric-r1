@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Usage: ./run <items.json> --budget <1x|3x|10x> --out <answers.json>
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHONPATH="$HERE/src${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m auric.cli "$@"

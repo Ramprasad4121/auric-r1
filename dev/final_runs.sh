@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Reproduce every live number in WRITEUP.md. Writes results/final/*.
+# Reproduce every live number in the README write-up. Writes results/final/*.
 set -u
 cd "$(dirname "$0")/.."
 R=results/final

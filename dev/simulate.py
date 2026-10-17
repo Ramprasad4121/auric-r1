@@ -1,8 +1,6 @@
-"""
-Dev only: replay a pool of saved i.i.d. replies through the live
+"""Dev only: replay a pool of saved i.i.d. replies through the live
 aggregation/stopping code. Each 'run' r uses a rotation of the pool so runs
-see different draws. Reports mean macro score and mean calls per item.
-"""
+see different draws. Reports mean macro score and mean calls per item."""
 import json,sys,io,contextlib,statistics as st
 sys.path.insert(0,'src'); sys.path.insert(0,'data')
 from auric.pipeline import Config,prepare,aggregate,should_stop

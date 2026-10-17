@@ -13,7 +13,7 @@ from .pipeline import BUDGETS, Config, run_item
 
 COMPONENTS = ("prefilter", "vote", "prior_pick", "adaptive")
 # adaptive early stopping is built and tested but OFF by default: on the
-# offline replay it saved calls and cost accuracy at 10x (see WRITEUP).
+# offline replay it saved calls and cost accuracy at 10x (see README write-up).
 DEFAULT_OFF = {"adaptive"}
 
 
